@@ -3,12 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3003",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth0/auth0-react": "^1.10.2",
+    "@auth0/nextjs-auth0": "^1.9.1",
+    "base64url": "^3.0.1",
+    "crypto": "^1.0.1",
     "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0"
